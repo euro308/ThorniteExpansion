@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "thornite_expansion:netherite_thornite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.gaias_champion.title"
+    },
+    "description": {
+      "translate": "advancements.gaias_champion.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gaias_champion_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thornite_expansion:netherite_thornite_helmet"
+          },
+          {
+            "items": "thornite_expansion:netherite_thornite_chestplate"
+          },
+          {
+            "items:": "thornite_expansion:netherite_thornite_leggings"
+          },
+          {
+            "items": "thornite_expansion:netherite_thornite_boots"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "thornite_expansion:infernal_harmony"
+}

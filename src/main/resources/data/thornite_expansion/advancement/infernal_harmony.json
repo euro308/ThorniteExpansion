@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "thornite_expansion:netherite_thornite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.infernal_harmony.title"
+    },
+    "description": {
+      "translate": "advancements.infernal_harmony.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "infernal_harmony_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thornite_expansion:netherite_thornite_pickaxe",
+              "thornite_expansion:netherite_thornite_axe",
+              "thornite_expansion:netherite_thornite_shovel",
+              "thornite_expansion:netherite_thornite_hoe",
+              "thornite_expansion:netherite_thornite_sword",
+              "thornite_expansion:netherite_thornite_helmet",
+              "thornite_expansion:netherite_thornite_chestplate",
+              "thornite_expansion:netherite_thornite_leggings",
+              "thornite_expansion:netherite_thornite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "thornite_expansion:verdant_perfection"
+}

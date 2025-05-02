@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "thornite_expansion:emerald_thornite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.verdant_perfection.title"
+    },
+    "description": {
+      "translate": "advancements.verdant_perfection.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "verdant_perfection_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thornite_expansion:emerald_thornite_pickaxe",
+              "thornite_expansion:emerald_thornite_axe",
+              "thornite_expansion:emerald_thornite_shovel",
+              "thornite_expansion:emerald_thornite_hoe",
+              "thornite_expansion:emerald_thornite_sword",
+              "thornite_expansion:emerald_thornite_helmet",
+              "thornite_expansion:emerald_thornite_chestplate",
+              "thornite_expansion:emerald_thornite_leggings",
+              "thornite_expansion:emerald_thornite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "thornite_expansion:crystalline_evolution"
+}

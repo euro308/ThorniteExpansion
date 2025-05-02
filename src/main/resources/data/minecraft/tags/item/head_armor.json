@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thornite_expansion:netherite_thornite_helmet",
+    "thornite_expansion:emerald_thornite_helmet",
+    "thornite_expansion:diamond_thornite_helmet",
+    "thornite_expansion:golden_thornite_helmet",
+    "thornite_expansion:thornite_helmet"
+  ]
+}

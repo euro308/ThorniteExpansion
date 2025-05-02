@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "thornite_expansion:thornite_gem"
+    },
+    "X": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "thornite_expansion:thornite_boots",
+    "count": 1
+  }
+}

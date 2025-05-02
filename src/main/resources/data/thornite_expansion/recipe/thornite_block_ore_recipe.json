@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thornite_expansion:thornite_block"
+    }
+  ],
+  "result": {
+    "id": "thornite_expansion:thornite_gem",
+    "count": 9
+  }
+}

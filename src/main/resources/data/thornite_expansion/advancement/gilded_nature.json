@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "thornite_expansion:golden_thornite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.gilded_nature.title"
+    },
+    "description": {
+      "translate": "advancements.gilded_nature.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gilded_nature_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thornite_expansion:golden_thornite_pickaxe",
+              "thornite_expansion:golden_thornite_axe",
+              "thornite_expansion:golden_thornite_shovel",
+              "thornite_expansion:golden_thornite_hoe",
+              "thornite_expansion:golden_thornite_sword",
+              "thornite_expansion:golden_thornite_helmet",
+              "thornite_expansion:golden_thornite_chestplate",
+              "thornite_expansion:golden_thornite_leggings",
+              "thornite_expansion:golden_thornite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "thornite_expansion:gaias_toolsmith"
+}

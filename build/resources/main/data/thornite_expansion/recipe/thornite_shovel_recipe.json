@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "thornite_expansion:thornite_gem"
+    },
+    "X": {
+      "item": "minecraft:iron_shovel"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "thornite_expansion:thornite_shovel",
+    "count": 1
+  }
+}

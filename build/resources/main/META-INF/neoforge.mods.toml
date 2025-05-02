@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="thornite_expansion"
+version="1.21.1-neoforge"
+displayName="Thornite Expansion"
+displayURL="https://mcreator.net"
+authors="Euro307"
+license="MIT License"
+description = "Discover Thornite, a unique magical resource with nature's healing powers! Craft awesome tools and armor that fix themselves when you're hanging out near grass and flowers. Thanks, Mother Nature!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.thornite_expansion]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.92,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.thornite_expansion]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

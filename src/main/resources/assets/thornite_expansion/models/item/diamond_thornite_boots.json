@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "thornite_expansion:item/diamond_thornite_boots"
+  }
+}

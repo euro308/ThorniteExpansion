@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "thornite_expansion:diamond_thornite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.crystalline_evolution.title"
+    },
+    "description": {
+      "translate": "advancements.crystalline_evolution.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crystalline_evolution_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thornite_expansion:diamond_thornite_pickaxe",
+              "thornite_expansion:diamond_thornite_axe",
+              "thornite_expansion:diamond_thornite_shovel",
+              "thornite_expansion:diamond_thornite_hoe",
+              "thornite_expansion:diamond_thornite_sword",
+              "thornite_expansion:diamond_thornite_helmet",
+              "thornite_expansion:diamond_thornite_chestplate",
+              "thornite_expansion:diamond_thornite_leggings",
+              "thornite_expansion:diamond_thornite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "thornite_expansion:gilded_nature"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thornite_expansion:item/diamond_thornite_sword"
+  }
+}

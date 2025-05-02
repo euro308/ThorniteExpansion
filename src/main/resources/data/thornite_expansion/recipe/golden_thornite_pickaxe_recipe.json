@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "thornite_expansion:thornite_pickaxe"
+    },
+    {
+      "item": "thornite_expansion:golden_gem"
+    }
+  ],
+  "result": {
+    "id": "thornite_expansion:golden_thornite_pickaxe",
+    "count": 1
+  }
+}
