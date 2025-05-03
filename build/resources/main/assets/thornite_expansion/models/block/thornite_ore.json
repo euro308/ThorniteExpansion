@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "thornite_expansion:block/thornite_ore",
-    "particle": "thornite_expansion:block/thornite_ore"
-  },
-  "render_type": "solid"
-}
